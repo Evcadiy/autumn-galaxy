@@ -1,6 +1,7 @@
 <script lang="ts">
   import burgerMenuIcon from "../../../../assets/icons/burger-menu.svg"
   import BurgerMenuItem from "./BurgerMenuItem.svelte"
+
   let isOpen = false
 
   const toggleMenu = () => {
@@ -20,27 +21,21 @@
 </div>
 
 <!-- Menu -->
-{#if isOpen}
-  <div class="menu menu-enter">
-    <button class="close-button" on:click={toggleMenu}>&times;</button>
-    <ul class="text-white text-2xl space-y-6">
-      <BurgerMenuItem text="Play" href="/" onClick={toggleMenu} />
-      <BurgerMenuItem text="Download" href="/" onClick={toggleMenu} />
-      <BurgerMenuItem text="About" href="/" onClick={toggleMenu} />
-      <BurgerMenuItem text="Contact" href="/" onClick={toggleMenu} />
-    </ul>
-  </div>
-{/if}
+<div class={`menu ${isOpen ? "menu-enter" : "menu-exit"}`}>
+  <button class="close-button" on:click={toggleMenu}>&times;</button>
+  <ul class="text-white text-2xl space-y-6">
+    <BurgerMenuItem text="Play" href="/" onClick={toggleMenu} />
+    <BurgerMenuItem text="Download" href="/" onClick={toggleMenu} />
+    <BurgerMenuItem text="About" href="/" onClick={toggleMenu} />
+    <BurgerMenuItem text="Contact" href="/" onClick={toggleMenu} />
+  </ul>
+</div>
 
 <style>
-  .menu-enter {
-    transform: translateX(0);
-  }
-
   .menu {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.95);
@@ -49,6 +44,16 @@
     align-items: center;
     justify-content: center;
     z-index: 50;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .menu-enter {
+    transform: translateX(0);
+  }
+
+  .menu-exit {
+    transform: translateX(100%);
   }
 
   .close-button {
@@ -58,7 +63,7 @@
     background: transparent;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
   }
 </style>
