@@ -37,12 +37,7 @@
     transform: translateX(0);
   }
 
-  .menu-leave {
-    transform: translateX(100%);
-  }
-
   .menu {
-    transition: transform 0.3s ease-in-out;
     position: fixed;
     top: 0;
     left: 0;
