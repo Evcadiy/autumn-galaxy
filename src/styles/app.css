@@ -8,7 +8,8 @@
 
 html,
 body {
-  font-family: "Gilroy", "Woodford Bourne Pro";
+  font-family: "Gilroy", "Woodford Bourne Pro", "Gilroy Bold", "Cormorant SC",
+    "BigNoodleTitling", "Ethnocentric Rg";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
