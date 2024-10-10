@@ -2,18 +2,16 @@
   import banner from "../../../assets/images/BannerStarcraft1.png"
   import galaxy from "../../../assets/images/Galaxy01.png"
   import GreenButton from "../UI/Buttons/GreenButton.svelte"
+  import GradientBox from "../UI/GradientBox.svelte"
   import TrailerPlaceholder from "./TrailerPlaceholder.svelte"
 </script>
 
 <section
   class="relative bg-background-primary flex justify-center items-center flex-col"
 >
+  <GradientBox src={banner} />
   <div
-    class="gradient-overlay h-[500px] max-xl:h-[600px] max-lg:h-[400px] max-md:h-[100px] mb-96"
-  ></div>
-  <img src={banner} alt="banner" class="w-full" />
-  <div
-    class="relative bottom-80 max-xl:bottom-52 max-lg:bottom-32 max-sm:bottom-16 left-0 right-0 flex justify-center items-center flex-col"
+    class="relative -top-64 max-xl:-top-52 max-lg:-top-32 max-sm:-top-16 left-0 right-0 flex justify-center items-center flex-col z-10"
   >
     <img src={galaxy} alt="banner" class=" w-[70%]" />
     <p
@@ -25,20 +23,3 @@
     <TrailerPlaceholder />
   </div>
 </section>
-
-<style>
-  .gradient-overlay {
-    position: absolute;
-    bottom: 2;
-    left: 0;
-    right: 0;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(10, 19, 25, 0.9) 20%,
-      rgba(10, 19, 25, 1) 50%,
-      rgba(10, 19, 25, 1) 70%,
-      rgba(10, 19, 25, 1) 100%
-    );
-  }
-</style>
