@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Gilroy";
+  src:
+    local("Gilroy Semibold"),
+    local("Gilroy-Semibold"),
+    url("/src/assets/fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2"),
+    url("/src/assets/fonts/Gilroy/Gilroy-Semibold.woff") format("woff"),
+    url("/src/assets/fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Woodford Bourne Pro";
+  src:
+    local("Woodford Bourne Pro Black"),
+    local("Woodford-Bourne-Pro-Black"),
+    url("/src/assets/fonts/WoodfordBournePro-Black/WoodfordBournePro-Black.woff2")
+      format("woff2"),
+    url("/src/assets/fonts/WoodfordBournePro-Black/WoodfordBournePro-Black.woff")
+      format("woff"),
+    url("/src/assets/fonts/WoodfordBournePro-Black/WoodfordBournePro-Black.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}

@@ -1,4 +1,10 @@
 :root {
   /* Widths */
   --max-container-width: 1840px;
+
+  /* Colors */
+  --color-background-primary: #0a1319;
+
+  --color-header-link: #fff;
+  --color-header-link-active: #76ddd1;
 }
