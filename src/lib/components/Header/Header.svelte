@@ -13,7 +13,10 @@
   <div class="flex w-full items-center">
     <img src={logo} alt="logo" class="w-32 max-md:w-20" />
     <HeaderNavBar />
-    <OutlinedButton text="Download" class="max-md:mx-4" />
+    <OutlinedButton
+      text="Download"
+      class="py-4 max-md:mx-4 max-lg:py-2 max-md:py-1"
+    />
   </div>
   <BurgerMenu />
 </header>

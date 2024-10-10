@@ -6,7 +6,7 @@
 
 <section>
   <button
-    class={`text-white uppercase font-woodford border-white border-2 px-4 py-2 lg:px-8 lg:py-4 ${className}`}
+    class={`text-white max-md:text-sm uppercase font-woodford border-white border-2 px-4 lg:px-8 ${className}`}
     >{text}</button
   >
 </section>
