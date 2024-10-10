@@ -1,4 +1,7 @@
 <script>
+  import TopSection from "$lib/components/TopSection/TopSection.svelte"
 </script>
 
-<section>hello</section>
+<section>
+  <TopSection />
+</section>

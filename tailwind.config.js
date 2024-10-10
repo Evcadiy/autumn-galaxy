@@ -9,7 +9,11 @@ export default {
       fontFamily: {
         sans: ["Open Sans", "Inter"],
         gilroy: ["Gilroy", "sans-serif"],
-        woodford: ['"Woodford Bourne Pro"', "serif"]
+        gilroyBold: ["Gilroy Bold", "sans-serif"],
+        woodford: ['"Woodford Bourne Pro"', "serif"],
+        cormorantSC: ["Cormorant SC", "serif"],
+        bignoodletitling: ["BigNoodleTitling", "serif"],
+        ethnocentricrg: ["Ethnocentric Rg", "serif"]
       },
       // Colors
       colors: {
