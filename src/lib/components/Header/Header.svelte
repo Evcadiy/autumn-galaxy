@@ -15,7 +15,7 @@
     <HeaderNavBar />
     <OutlinedButton
       text="Download"
-      class="py-4 max-md:mx-4 max-lg:py-2 max-md:py-1"
+      class="py-4 px-8 max-lg:px-4 max-md:mx-4 max-lg:py-2 max-md:py-1"
     />
   </div>
   <BurgerMenu />
