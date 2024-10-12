@@ -13,11 +13,13 @@
   import OutlinedButton from "../UI/Buttons/OutlinedButton.svelte"
 </script>
 
-<section class="bg-background-primary pt-36 pb-12 max-lg:py-16 max-sm:py-10">
+<section
+  class="bg-background-primary pt-36 pb-12 max-lg:pt-16 max-lg:pb-0 max-sm:pt-10"
+>
   <BgGradient
     src={bgNewsImage}
     showGradientOnTop
-    class="h-[800px] max-md:h-[1550px] max-xs:h-[1350px]"
+    class="h-[800px] max-md:h-[1500px] max-sm:h-[1450px] max-xs:h-[1270px]"
   >
     <Deco title="News" />
     <div class="news-grid mt-14 max-sm:mt-0 2xl:mx-64">
@@ -25,8 +27,11 @@
       <NewsCard imageSrc={newsImage2} logoSrc={logo2} />
       <NewsCard imageSrc={newsImage3} logoSrc={logo2} />
     </div>
-    <div class="w-full flex justify-center pt-6">
-      <OutlinedButton text={"All News"} class="py-6 px-12 max-lg:px-8" />
+    <div class="w-full flex justify-center pt-6 max-md:pt-0">
+      <OutlinedButton
+        text={"All News"}
+        class="py-6 px-12 max-lg:px-8 max-lg:py-4 max-md:py-2"
+      />
     </div>
   </BgGradient>
 </section>
