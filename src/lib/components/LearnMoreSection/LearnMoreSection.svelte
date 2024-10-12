@@ -16,7 +16,7 @@
     </h2>
     <OutlinedButton
       text="Learn More"
-      class="mt-16 max-md:mt-5 py-6 max-lg:py-4 max-md:py-2"
+      class="mt-16 max-md:mt-5 py-6 px-8 max-lg:px-4 max-lg:py-4 max-md:py-2"
     />
   </div>
 </section>
