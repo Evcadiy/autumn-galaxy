@@ -7,7 +7,7 @@
 
 <section class="bg-background-primary">
   <BgGradient
-    class="h-[450px] max-md:h-[150px]"
+    class="h-[450px] max-md:h-[200px]"
     src={socialsImage}
     showGradientOnTop
   >

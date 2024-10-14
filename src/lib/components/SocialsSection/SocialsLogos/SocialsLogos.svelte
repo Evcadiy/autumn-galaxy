@@ -6,13 +6,13 @@
 </script>
 
 <section class="flex justify-center gap-6 md:gap-12 pt-8 md:pt-16 items-center">
-  <img src={TwitterLogo} alt="Twitter" class="w-8 md:w-14" />
+  <a href="/"><img src={TwitterLogo} alt="Twitter" class="w-8 md:w-14" /></a>
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
-  <img src={FacebookLogo} alt="Facebook" class="w-8 md:w-14" />
+  <a href="/"><img src={FacebookLogo} alt="Facebook" class="w-8 md:w-14" /></a>
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
-  <img src={DiscordLogo} alt="Discord" class="w-8 md:w-14" />
+  <a href="/"><img src={DiscordLogo} alt="Discord" class="w-8 md:w-14" /></a>
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
-  <img src={YoutubeLogo} alt="YouTube" class="w-8 md:w-14" />
+  <a href="/"><img src={YoutubeLogo} alt="Youtube" class="w-8 md:w-14" /></a>
 </section>
 
 <style>
