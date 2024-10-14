@@ -12,7 +12,7 @@
   >
     <!-- Left Side (Links) -->
     <div class="w-full max-w-[700px] min-w-[200px] max-sm:text-center">
-      <h2 class="text-white text-lg pb-5">Autumn Kingdoms</h2>
+      <h2 class="text-white text-lg font-gilroyBold pb-5">Autumn Kingdoms</h2>
       <div class="sm:flex flex-wrap gap-x-24 gap-y-4">
         <FooterLink text="Home" />
         <FooterLink text="Features" />
@@ -26,7 +26,7 @@
     <div class="w-full max-w-[80px] pb-8 md:flex md:justify-center">
       <!-- Flex для md-->
       <div class="text-center">
-        <h2 class="text-white text-lg pt-8 pb-5">Follow Us</h2>
+        <h2 class="text-white text-lg font-gilroyBold pt-8 pb-5">Follow Us</h2>
         <div class="grid grid-cols-2 gap-x-8 gap-y-6">
           <a href="/"><img src={TwitterLogo} alt="Twitter" class="w-6" /></a>
           <a href="/"><img src={FacebookLogo} alt="Facebook" class="w-6" /></a>
