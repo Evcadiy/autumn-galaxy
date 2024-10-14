@@ -2,7 +2,7 @@
   import GreenButton from "../UI/Buttons/GreenButton.svelte"
 </script>
 
-<section class="bg-background-primary pb-10">
+<section class="bg-background-primary py-10 max-md:py-2">
   <div class="divider">
     <div class="shadow" />
     <div class="flex items-center">
