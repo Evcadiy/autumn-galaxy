@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../assets/icons/deco.svg);
+    background-image: url(../../../../assets/icons/deco.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

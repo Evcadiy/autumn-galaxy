@@ -3,7 +3,7 @@
   import deco from "../../../assets/icons/deco.svg"
   import GradientBox from "../UI/GradientBox.svelte"
   import BgGradient from "../UI/BgGradient.svelte"
-  import Deco from "../UI/Deco.svelte"
+  import Deco from "../../components/UI/Deco/Deco.svelte"
   import NewsCard from "./NewsCard/NewsCard.svelte"
   import newsImage1 from "../../../assets/images/newsimage1.png"
   import newsImage2 from "../../../assets/images/newsimage2.png"
