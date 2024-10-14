@@ -30,7 +30,7 @@ export default {
       },
       // Breakpoints for media queries
       screens: {
-        xs: "478.9px",
+        xs: "481px",
         sm: "576.9px",
         md: "768.9px",
         lg: "992.9px",
