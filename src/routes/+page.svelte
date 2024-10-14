@@ -10,6 +10,4 @@
   <TopSection />
   <LearnMoreSection />
   <NewsSection />
-  <DownloadDivider />
-  <SocialsSection />
 </section>
