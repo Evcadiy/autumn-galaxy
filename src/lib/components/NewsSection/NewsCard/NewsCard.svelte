@@ -53,7 +53,7 @@
 
   .title {
     color: #1d3456;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

@@ -1,8 +1,10 @@
 <script>
   export let title = ""
+  let className = ""
+  export { className as class }
 </script>
 
-<section class="w-full flex justify-center">
+<section class={`w-full flex justify-center ${className}`}>
   <div class="decorated-header mx-2 xl:mx-52 w-full 2xl:w-1/2">
     <h1 class="title font-ethnocentricrg">{title}</h1>
   </div>
