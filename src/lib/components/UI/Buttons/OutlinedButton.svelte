@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { goto } from "$app/navigation" // Импорт функции для навигации
+  import { goto } from "$app/navigation"
 
   export let text: string
   let className = ""
@@ -21,3 +21,12 @@
     {text}
   </button>
 </section>
+
+<style>
+  @media (hover: hover) {
+    button:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: background-color 0.3s ease;
+    }
+  }
+</style>

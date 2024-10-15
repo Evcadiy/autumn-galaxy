@@ -43,10 +43,10 @@
   {#if isOpen}
     <div class="absolute w-full mt-2 bg-black">
       <ul class="text-white divide-y divide-gray-white">
-        <DropdownItem text="All" />
-        <DropdownItem text="Announcement" />
-        <DropdownItem text="News" />
-        <DropdownItem text="Guides" />
+        <DropdownItem {toggleDropdown} text="All" />
+        <DropdownItem {toggleDropdown} text="Announcement" />
+        <DropdownItem {toggleDropdown} text="News" />
+        <DropdownItem {toggleDropdown} text="Guides" />
       </ul>
     </div>
   {/if}

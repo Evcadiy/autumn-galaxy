@@ -33,10 +33,22 @@
     background: linear-gradient(47deg, #05802f 40.22%, #12dc9c 109.98%);
     opacity: 0.45;
     z-index: -1;
+    transition: opacity 0.3s ease;
   }
 
   .green-btn span {
     position: relative;
     z-index: 10;
+  }
+
+  @media (hover: hover) {
+    .green-btn:hover::before {
+      opacity: 0.65;
+    }
+
+    .green-btn:hover {
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
+      transition: box-shadow 0.3s ease;
+    }
   }
 </style>

@@ -1,9 +1,17 @@
 <script>
   export let text
+  export let toggleDropdown
 </script>
 
 <section>
-  <li class="text-white text p-4 font-gilroyBold">{text}</li>
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+  <li
+    on:click={toggleDropdown}
+    class="text-white text p-4 font-gilroyBold hover:text-opacity-75 hover:bg-gray-500 hover:cursor-pointer"
+  >
+    {text}
+  </li>
 </section>
 
 <style>
