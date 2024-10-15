@@ -14,18 +14,24 @@
   import logo from "../../assets/images/logo.png"
   import logo2 from "../../assets/images/logo2.png"
   import OutlinedButton from "$lib/components/UI/Buttons/OutlinedButton.svelte"
+  import Dropdown from "$lib/components/UI/Dropdown/Dropdown.svelte"
 </script>
 
 <section class="relative bg-background-primary">
   <BgGradient
     src={bgImage}
-    class="opacity-50 h-[2100px] max-xl:h-[1920px] max-lg:h-[2100px] max-md:h-[3100px] max-xs:h-[2800px]"
+    class="opacity-50 h-[2200px] max-xl:h-[2020px] max-lg:h-[2200px] max-md:h-[3200px] max-xs:h-[2870px]"
   >
     <Deco title="News" class="py-28 max-xl:py-20 max-lg:py-10" />
     <SwiperSection />
+
     <div
       class="news-grid mt-32 max-sm:mt-8 max-xl:mt-10 justify-items-center px-10"
     >
+      <div class="col-span-1 w-full">
+        <Dropdown />
+      </div>
+      <div class="col-span-2 max-md:hidden"></div>
       <NewsCard imageSrc={newsImage1} logoSrc={logo} />
       <NewsCard imageSrc={newsImage2} logoSrc={logo2} />
       <NewsCard imageSrc={newsImage3} logoSrc={logo2} />
