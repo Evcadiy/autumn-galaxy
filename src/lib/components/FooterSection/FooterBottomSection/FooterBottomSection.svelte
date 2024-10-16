@@ -1,5 +1,4 @@
 <script>
-  import logoPlaceholder from "../../../../assets/images/logoplaceholder.png"
   import logo from "../../../../assets/images/logo.png"
   import FooterLink from "../FooterLink/FooterLink.svelte"
 </script>
