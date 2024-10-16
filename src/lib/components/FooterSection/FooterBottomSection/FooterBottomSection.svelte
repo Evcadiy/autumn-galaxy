@@ -1,5 +1,6 @@
 <script>
   import logoPlaceholder from "../../../../assets/images/logoplaceholder.png"
+  import logo from "../../../../assets/images/logo.png"
   import FooterLink from "../FooterLink/FooterLink.svelte"
 </script>
 
@@ -9,7 +10,7 @@
   >
     <!-- Logo Section -->
     <div class="flex items-start justify-center pl-4 md:pr-20 max-md:pb-12">
-      <a href="/"><img src={logoPlaceholder} alt="logo" class="w-14" /></a>
+      <a href="/"><img src={logo} alt="logo" class="w-16" /></a>
     </div>
     <div class="flex flex-1 space-x-16 justify-start">
       <!-- About Section -->
