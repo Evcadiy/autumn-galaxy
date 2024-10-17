@@ -64,6 +64,7 @@
     color: #325b64;
     font-size: 18px;
     font-weight: 400;
+    line-height: 1.2;
   }
 
   .date {
