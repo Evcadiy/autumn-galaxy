@@ -11,7 +11,7 @@
   class="w-full p-10 max-md:px-4 max-md:py-4 max-lg:px-6 flex items-center justify-between relative bg-background-primary"
 >
   <div class="flex w-full items-center">
-    <img src={logo} alt="logo" class="w-32 max-md:w-20" />
+    <a href="/"> <img src={logo} alt="logo" class="w-32 max-md:w-20" /></a>
     <HeaderNavBar />
     <OutlinedButton
       text="Download"
