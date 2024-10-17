@@ -52,7 +52,7 @@
                 class="flex flex-col gap-8 max-lg:gap-2 max-lg:text-xs max-md:gap-1 max-md:text-[9px]"
               >
                 <p>{slide.description}</p>
-                <p>{slide.secondDescription}</p>
+                <p class="pb-2">{slide.secondDescription}</p>
               </div>
             </div>
           </div>

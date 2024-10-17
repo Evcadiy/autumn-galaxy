@@ -18,7 +18,7 @@
     class={`text-white  max-md:text-sm uppercase font-woodford border-white border-2 ${className}`}
     on:click={handleClick}
   >
-    <p class="pt-[2px]">{text}</p>
+    <p class="pt-[3px]">{text}</p>
   </button>
 </section>
 
